@@ -9,5 +9,27 @@
 <body>
     <h1>Desarrollo 01</h1>
     <p><a href="index.html">Regresar al principio</a></p>
+    <p><a href="desarrollo02.html">Desarrollo 02</a></p>
+    <p><a href="desarrollo03.html">Desarrollo 03</a></p>
+    <br>
+    <p><h4>Para saber en que categoria te encuentras ingresa tu nota final:</h4></p>
+    <h4>(Las notas se rigen del 0 al 20)</h4>
+    <form action="" name="curso">
+        <table border="1" align="center"> 
+            <tr>
+                <td>Ingrese su Nota: </td>
+                <td><input type="number" id="nota01" name="nota01"  max="20" pattern="[0-9]" required></td>
+            </tr>
+            <tr>
+                <td id="A0"><input type="button" id="limpiar" name="limpiar" value="limpiar" onclick="limp()"></td>
+                <td id="A0"><input type="button" id="calcular" name="calcular" value="calcular" onclick="calc()"></td>
+            </tr>
+            <tr>
+                <td>Categoria: </td>
+                <td><input type="text" name="categoria" id="categoria" readonly="true"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="js/codigo.js"></script>
 </body>
 </html>

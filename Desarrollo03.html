@@ -9,5 +9,50 @@
 <body>
     <h1>Desarrollo 03</h1>
     <p><a href="index.html">Regresar al principio</a></p>
+    <p><a href="desarrollo01.html">Desarrollo 01</a></p>
+    <p><a href="desarrollo02.html">Desarrollo 02</a></p>
+
+    <form action="" name="curso">
+        <table border="1" align="center">
+            <tr>
+                <td>Sueldo básico:</td>
+                <td>S/. 600.00</td>
+            </tr>
+            <tr>
+                <td>Cantidad de niños en colegio</td>
+                <td><input type="number" id="niños" name="niños" min="0" pattern="[0-9]"></td>
+            </tr>
+            <tr>
+                <td>Total de ventas en el mes: </td>
+                <td><input type="number" id="ventas" name="ventas" min="0" pattern="[0-9]"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="limpiezzaa" name="limpiezaa" value="Limpiar" onclick="limpiezaaaa()"></td>
+                <td><input type="button" id="calcular" name="calcular" value="calcular" onclick="cal()"></td>
+            </tr>
+            <tr>
+                <td>Bono por niños</td>
+                <td><input type="text" name="bono" id="bono" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Comision de ventas(7.5%)</td>
+                <td><input type="text" name="comision" id="comision" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Sueldo bruto</td>
+                <td><input type="text" id="suelbru" name="suelbru" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Descuento obligatorio (11%) :</td>
+                <td><input type="text" id="descu" name="descu" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Sueldo neto: </td>
+                <td><input type="text" id="suelnet" name="suelnet" readonly="true"></td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="js/codigo.js"></script>
 </body>
 </html>

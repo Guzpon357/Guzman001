@@ -9,5 +9,44 @@
 <body>
     <h1>Desarrollo 02</h1>
     <p><a href="index.html">Regresar al principio</a></p>
+    <p><a href="desarrollo01.html">Desarrollo 01</a></p>
+    <p><a href="desarrollo03.html">Desarrollo 03</a></p>
+
+    <br>
+    <form action="" name="curso">
+        <table border="1" align="center">
+            <tr>
+                <td>Nota:</td>
+                <td>Las categorias son A-B-C-D</td>
+            </tr>
+            <tr>
+                <td>Categoria:</td>
+                <td><input type="text" id="cat" name="cat"></td>
+            </tr>
+            <tr>
+                <td>Numero de hijos:</td>
+                <td><input type="number" id="nhijo" name="nhijo"></td>
+            </tr>
+            <tr>
+                <td>Nota:</td>
+                <td>Si es contratado escriba "C" <br>y si es nombrado escriba "N"</td>
+            </tr>
+            <tr>
+                <td>Condicion laboral: </td>
+                <td><input type="text" id="condi" name="condi"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="Limpiar" id="Limpiar" value="Limpiar" onclick="planlimpi()"></td>
+                <td><input type="button" name="cacu" id="cacu" value="Calcular" onclick="traba()"></td>
+            </tr>
+            <tr>
+                <td>Sueldo:</td>
+                <td><input type="number" name="sueldo" id="sueldo" readonly="true"></td>
+            </tr>
+        </table>
+    </form>
+
+
+    <script src="js/codigo.js"></script>
 </body>
 </html>
